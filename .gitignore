@@ -1,0 +1,20 @@
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+*.a
+*.so
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+
+#Ignore the database
+images.db
+
+# Ignore dependencies if using Go modules
+vendor/
+
+# Ignore environment files
+.env
